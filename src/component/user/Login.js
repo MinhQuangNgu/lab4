@@ -1,8 +1,7 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom';
 const Login = () => {
-
     const emailRef = useRef();
     const passwordRef = useRef();
     const nameRef = useRef()
@@ -23,6 +22,7 @@ const Login = () => {
 
         }
     }
+
     return (
         <div style={{ marginTop: "50px", width: "40%", border: '1px solid rgba(0,0,0,0.1)', padding: "20px" }} className='container'>
             <div class="form-group">

@@ -1,3 +1,4 @@
+import Cart from "../component/cart/Cart";
 import Home from "../component/home/Home";
 import ProductCreate from "../component/product/ProductCreate";
 
@@ -16,6 +17,11 @@ export const router = [
     {
         path:"/create",
         element:ProductCreate
+    }
+    ,
+    {
+        path:"/cart",
+        element:Cart
     }
 ]
 
